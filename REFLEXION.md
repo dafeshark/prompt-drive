@@ -15,13 +15,15 @@ sentirse mas que antes, las dos funciones que toque.
 
 ## Dónde la IA me ayudó y dónde me engañó
 La ia me ayudo cuando le dije que conduciera solo, pero me engaño proque fue conduciendo hacia atras entonces no tiene mucho sentido, me senti
-engañado cuando no fuera hacia adelante 
+engañado cuando no fuera hacia adelante de todos formas que ya este tan avanzada que pueda hacer varias funciones de un ser humano sin la necesidad
+de codigo es algo impresionante.
 ## Qué haría con un segundo día
 LO que haria con un segundo dia seria implitar una funcion para que si alguien no es tan especifico se comporte de manera un poco mas natural y 
 que pueda conducir con normalidad osea si le digo que conduzca que conduzca hacia adelante sin mas, no que conduzca hacia atras que casi nunca es lo
-que el usuario necesita.
-
+que el usuario necesita,tambien me gustaria que mejorar su escucha ya que en varias ocasiones tu le dices una instruccion y no la escucha o no hace caso 
+directamente.
 ## Qué aprendí sobre la retroalimentación en el carro, o sobre cómo trabajo yo
 aprendi sobre como aplicar pull request o colaborar en un proyecto abierto porque nunca habia trabajo en estos, tambien me di cuenta
 de que tengo que praacticar mas el ingles ya que aunque ya tengo un nivel b2 certificado por el ielts siento que la parte en la que hablo ingles no
-hable de forma muy fluida.
+hable de forma muy fluida, tambien me gustaria mucho participar en este tipo de eventos mucho mas seguido y tambien aprendi a como se comporta un agente
+de inteligencia artificial guiado por tu voz, tiene sus fallos pero siguen intentando y aprendiendo como lo haria un ser humano y eso es algo que impresiona mucho.
