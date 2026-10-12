@@ -1,28 +1,27 @@
 # Reflexión (300 a 500 palabras)
 
-> **BORRADOR — revisar y reescribir con tus propias palabras.** Este texto lo redactó un agente de IA (Claude Code) como punto de partida. La rúbrica premia especificidad y honestidad personal: reemplaza todo lo que no hayas vivido tú.
-
-**Equipo:** DanielMolina
-**Integrantes:** Daniel Molina (GitHub: dafeshark)
-**Features entregadas (ids):** `defrost`, `fog_lights`
-**Enlace al pull request:** (pendiente)
+**Equipo:**  Daniel Molina
+**Integrantes:**  Daniel Molina
+**Features entregadas (ids):** Se agrego un feature para prender las luces y para el parabrisas esta empañado 
+**Enlace al pull request:**  https://github.com/ignacioalvmar/prompt-drive/pull/29#issue-5820305163
 
 ## Qué quería lograr
-
-En el estudio, pedir "desempaña el parabrisas" o "prende las exploradoras" era un acto de fe: el asistente decía "listo" y nada cambiaba en la cabina. Escogí estas dos porque son acciones relacionadas con la visibilidad, justo donde la duda del conductor es más peligrosa: si no sé si el desempañador está actuando, sigo mirando el vidrio en vez de la vía.
+queria lograr que en el simulador de agente de voz cambiara algo en la cabina, que se pudiera ver el cambio y que el usuario pudiera sentir que se hacia algo y no que solo daba
+ordenes sin que se realizara nada.
 
 ## Qué diseñé y qué pasó
-
-Para ambas usé el mismo patrón: confirmación inmediata y corta por sonido, testigo persistente en la periferia (ámbar para desempañador, verde para antiniebla, siguiendo los símbolos ISO de un tablero real) y un efecto "físico" sutil (vaho que se despeja de abajo hacia arriba; banda de luz baja y ancha). Lo más importante fue limitar el vaho al tercio superior y a opacidad baja: un efecto a pantalla completa era más vistoso pero tapaba la carretera. Al ver las capturas, el haz de antiniebla quedó casi invisible de día; lo dejé así porque en un carro real también lo es, pero es algo a discutir.
+No rompi el codigo, quize mantener todo como estaba solo añadir funciones, colocar luces en el auto y que las funciones pudieran
+sentirse mas que antes, las dos funciones que toque.
 
 ## Dónde la IA me ayudó y dónde me engañó
-
-[Completar con tu experiencia. Ejemplo de lo que pasó: el agente generó y verificó todo en Chrome headless, pero su script no encontró el botón "begin" y el video automático no tiene voz, así que no cumple el requisito por sí solo.]
-
+La ia me ayudo cuando le dije que conduciera solo, pero me engaño proque fue conduciendo hacia atras entonces no tiene mucho sentido, me senti
+engañado cuando no fuera hacia adelante 
 ## Qué haría con un segundo día
-
-Relacionar el tiempo de despeje con `fan_speed` y `fan_airflow_direction`; llevar el haz de antiniebla a la escena 3D y modularlo con la luz del día; probar con 3-5 personas cuántas miradas fuera de la vía necesitan para confirmar cada acción.
+LO que haria con un segundo dia seria implitar una funcion para que si alguien no es tan especifico se comporte de manera un poco mas natural y 
+que pueda conducir con normalidad osea si le digo que conduzca que conduzca hacia adelante sin mas, no que conduzca hacia atras que casi nunca es lo
+que el usuario necesita.
 
 ## Qué aprendí sobre la retroalimentación en el carro, o sobre cómo trabajo yo
-
-[Completar. Idea: la retroalimentación buena en un carro se parece más a un testigo que a una animación; el reto es confirmar sin pedir atención.]
+aprendi sobre como aplicar pull request o colaborar en un proyecto abierto porque nunca habia trabajo en estos, tambien me di cuenta
+de que tengo que praacticar mas el ingles ya que aunque ya tengo un nivel b2 certificado por el ielts siento que la parte en la que hablo ingles no
+hable de forma muy fluida.
