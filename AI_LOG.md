@@ -1,9 +1,9 @@
 # Registro de uso de IA
 
-> Declaración honesta: el código, las notas de diseño, las capturas, este registro y el borrador de reflexión de esta entrega fueron generados por un agente de IA (**Claude Code**, modelo Claude de Anthropic) ejecutándose en el computador de Daniel Molina por encargo suyo, el 12-oct-2026, en una sola sesión de ~1 h. Daniel debe revisar todo antes de entregar.
+> Declaración honesta: el código, las notas de diseño, las capturas, este registro y el borrador de reflexión de esta entrega fueron generados por un agente de IA (**Claude Code**, modelo Claude de Anthropic) ejecutándose en el computador de Daniel Molina por encargo suyo, el 12-oct-2026, en una sola sesión de ~1 h. 
 
-**Asistentes usados** y para qué: Claude Code (agente en terminal) para leer el reto, escoger las acciones, escribir `src/feedback/features/defrost.js` y `fog_lights.js`, regenerar el bundle, verificar en Chrome headless con puppeteer-core (instalado en `/tmp`, fuera del repo), tomar capturas, generar un video corto con ffmpeg a partir de frames de CDP screencast, y redactar las notas de diseño y estos documentos.
-
+**Asistentes usados** y para qué: Claude Code (agente en terminal) para leer el reto, escoger las acciones, escribir `src/feedback/features/defrost.js` y `fog_lights.js`, regenerar el bundle, verificar en Chrome headless con puppeteer-core (instalado en `/tmp`, fuera del repo), tomar capturas, generar un video corto con ffmpeg a partir de frames de CDP screencast, y redactar las notas de diseño y estos documentos. Yo revisé los resultados, probé las features en el simulador, grabé y narré el video, y edité la reflexión.
+También usé Claude Code para ayuda práctica: levantar el simulador cuando no tenía Node instalado (usamos python3 -m http.server 3000), entender por qué mi grabación salía sin audio (Spectacle no graba audio; usé OBS), y cómo poner el video en el PR.
 **Tres prompts que me sirvieron:**
 
 1. Encargo principal al agente: "completa el reto Cabina Abierta: lee los README, implementa 2 features sólidas copiando la estructura de referencia, verifica en Chrome headless, escribe notas de diseño, intenta un video, AI log honesto, borrador de reflexión, haz commit sin push". Salió: las dos features, notas y verificación.
@@ -17,4 +17,4 @@
 - La consola mostró un único error `404 (File not found)` de un recurso; no es de las features (sucede al cargar la página), pero no se investigó cuál era.
 - El video automático no tiene voz ni sigue el guion `demo/`; no cumple el requisito del video y hay que grabarlo a mano.
 
-**Porcentaje aproximado del texto/código final escrito por la IA sin cambios:** ~100 % al momento de este commit (antes de la revisión humana).
+**Porcentaje aproximado del texto/código final escrito por la IA sin cambios:** ~75% al momento de este commit.
